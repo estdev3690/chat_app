@@ -132,4 +132,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built with modern web technologies
 - Inspired by the need for real-time communication
+<<<<<<< HEAD
 - Special thanks to the open-source community 
+=======
+- Special thanks to the open-source community
+>>>>>>> origin/main
