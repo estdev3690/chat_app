@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState } from 'react';
 
 const AppContext = createContext();
 
-export const BACKEND_URL = 'http://localhost:4000';
+export const BACKEND_URL = 'https://chat-app-hu6l.onrender.com';
 
 export function AppProvider({ children }) {
   const [user, setUser] = useState(() => {
