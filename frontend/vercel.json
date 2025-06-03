@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_BACKEND_URL": "https://chat-app-hu6l.onrender.com"
+  },
+  "build": {
+    "env": {
+      "VITE_BACKEND_URL": "https://chat-app-hu6l.onrender.com"
+    }
+  }
+} 

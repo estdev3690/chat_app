@@ -2,7 +2,8 @@ import React, { createContext, useContext, useState } from 'react';
 
 const AppContext = createContext();
 
-export const BACKEND_URL = 'https://chat-app-hu6l.onrender.com';
+// Use environment variable with fallback
+export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://chat-app-hu6l.onrender.com';
 
 export function AppProvider({ children }) {
   const [user, setUser] = useState(() => {
