@@ -2,8 +2,8 @@
 
 A modern, real-time chat application built with React, Node.js, and Socket.IO. Features a beautiful UI with dark mode support, real-time messaging, and room-based conversations.
 
-![Dashboard](./frontend/src/assets/dashboard.png)
-![Chat Room](./frontend/src/assets/chatroom.png)
+![Dashboard](./frontend/src/assets/chatapplimage.png)
+![Chat Room](./frontend/src/assets/chatappliimage2.png)
 
 ## Features
 
@@ -132,8 +132,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built with modern web technologies
 - Inspired by the need for real-time communication
-<<<<<<< HEAD
-- Special thanks to the open-source community 
-=======
 - Special thanks to the open-source community
->>>>>>> origin/main
