@@ -16,7 +16,11 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:3000", "http://localhost:5173"], // Added Vite's default port
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:5173",
+      "https://chat-app-teal-psi.vercel.app"
+    ],
     credentials: true,
     methods: ["GET", "POST"],
   },
@@ -24,7 +28,11 @@ const io = new Server(server, {
 
 // Middlewares
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:5173"], // Added Vite's default port
+  origin: [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://chat-app-teal-psi.vercel.app"
+  ],
   credentials: true
 }));
 app.use(express.json());
